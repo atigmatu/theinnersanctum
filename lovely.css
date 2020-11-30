@@ -10,7 +10,7 @@ body{
 }
 
 p{
-  position: absolute;
+  position: fixed;
   top: 300px;
   right: 600px;
   color: white;
@@ -30,7 +30,7 @@ a:visited {
 #dif{
   color:#262729;
   font-size: 26px;
-  position: absolute;
+  position: fixed;
   top: 600px;
   left:200px;
 }

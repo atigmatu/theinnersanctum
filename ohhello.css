@@ -1,0 +1,60 @@
+h1{
+  color:black;
+  font-size: 48px;
+  background-color: white;
+  position: absolute;
+
+}
+
+body{
+  background-color: yellow;
+  cursor: grabbing;
+}
+
+p{
+}
+
+a{
+  color:black
+  position:absolute;
+}
+
+a:visited {
+  color:black;
+}
+
+#uh{
+  background-color: white;
+  width: 20vw;
+  opacity:1.0;
+  position:absolute;
+}
+
+#uh:hover{
+  opacity: 0.0
+}
+
+#glitch{
+  position: absolute;
+  bottom: 500px;
+  left: 600px;
+  opacity: 0;
+  font-size: 26px;
+}
+
+#glitch:hover{
+  opacity: 1;
+}
+
+#snoop{
+  position: absolute;
+  bottom: 345px;
+  left: 1225px;
+}
+
+#home{
+  position: absolute;
+  bottom:600px;
+}
+
+]

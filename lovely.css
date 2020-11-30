@@ -1,0 +1,36 @@
+h1{
+  color:white;
+  font-size: 48px;
+}
+
+body{
+  background-image: url(nightsky.jpg);
+  background-size: contain;
+  cursor: grabbing;
+}
+
+p{
+  position: absolute;
+  top: 300px;
+  right: 600px;
+  color: white;
+  font-size: 13px;
+
+}
+
+a{
+  color:#262729;
+  font-size: 26px;
+}
+
+a:visited {
+  color:#262729;
+}
+
+#dif{
+  color:#262729;
+  font-size: 26px;
+  position: absolute;
+  top: 600px;
+  left:200px;
+}

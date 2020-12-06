@@ -12,7 +12,8 @@ p{
 }
 
 a{
-  color:white
+  color:white;
+
 }
 
 a:visited {
@@ -37,6 +38,20 @@ a:visited {
 
 #lost{
   position: fixed;
-  bottom:0px;
+  top: 350px;
+  right:200px;
+  color: white;
+  width: 100%;
   font-size: 13px;
+  color:white
+}
+
+#wake{
+  position: fixed;
+  bottom: 300px;
+  left:200px;
+  color: white;
+  width: 100%;
+  font-size: 13px;
+  color:white
 }

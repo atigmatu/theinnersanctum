@@ -1,22 +1,37 @@
 h1{
   color:black;
   font-size: 48px;
-  background-color: white
 }
 
 body{
-  
-
+  cursor: grab;
 }
 
 p{
+  color:gray;
 }
 
 a{
-  color:black;
-
+  color:black
 }
 
 a:visited {
   color:black;
+}
+
+#glitch{
+  position: fixed;
+  right:0;
+  bottom:0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#content{
+  position: fixed;
+  bottom: 300px;
+  color: gray;
+  width: 100%;
+  font-size: 26px;
+
 }

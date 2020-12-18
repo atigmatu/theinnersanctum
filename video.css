@@ -12,11 +12,13 @@ p{
 }
 
 a{
-  color:black
+  text-decoration: none;
+  color:white
 }
 
 a:visited {
-  color:black;
+  text-decoration: none;
+  color:white;
 }
 
 #glitch{
@@ -30,9 +32,29 @@ a:visited {
 #content{
   position: fixed;
   bottom: 300px;
-  background:rgba(0, 0, 0, 0.5);
   color: white;
   width: 100%;
   font-size: 26px;
+}
+#secret{
+  position: fixed;
+  bottom: 200px;
+  color: white;
+  width: 100%;
+  font-size: 30px;
+  opacity:0;
+}
 
+#secret:hover{
+  opacity:1;
+}
+
+#mads{
+  position: absolute;
+  right:200;
+  opacity: 0;
+}
+
+#mads:hover{
+  opacity: 1;
 }

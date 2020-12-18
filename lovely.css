@@ -19,18 +19,41 @@ p{
 }
 
 a{
-  color:#262729;
+  text-decoration: none;
+  color:white;
   font-size: 26px;
+  opacity: 0;
 }
 
 a:visited {
-  color:#262729;
+  color:white;
+  opacity: 0;
+}
+
+a:hover{
+  opacity: 1;
 }
 
 #dif{
-  color:#262729;
-  font-size: 26px;
+  color:white;
+  font-size: 20px;
   position: fixed;
   top: 600px;
   left:200px;
+}
+
+#here{
+  color:white;
+  font-size: 20px;
+  position: fixed;
+  top: 500px;
+  right:200px;
+}
+
+#fix{
+  color:white;
+  font-size: 20px;
+  position: fixed;
+  top: 200px;
+  left:400px;
 }

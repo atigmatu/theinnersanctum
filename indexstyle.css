@@ -12,13 +12,14 @@ p{
 }
 
 a{
+  text-decoration: none;
   color:black
 }
 
 a:visited {
+  text-decoration: none;
   color:black;
 }
-
 
 #stars{
   background-color: white;
@@ -42,4 +43,15 @@ a:visited {
   background-color: white;
   width: 30vw;
   height: 2vw;
+}
+
+#explore{
+  opacity: .05;
+  position: fixed;
+  left: 500;
+  bottom: 100;
+}
+
+#explore:hover{
+  opacity: 1;
 }

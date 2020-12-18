@@ -12,6 +12,7 @@ p{
 }
 
 a{
+  text-decoration: none;
   color:white;
 }
 
@@ -53,4 +54,17 @@ a:visited {
   width: 100%;
   font-size: 13px;
   color:white
+}
+
+#explore{
+  opacity: .05;
+  position: fixed;
+  left: 500;
+  bottom: 100;
+  color: white;
+}
+
+#explore:hover{
+  opacity: 1;
+  color: white;
 }

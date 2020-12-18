@@ -1,0 +1,32 @@
+h1{
+  color:black;
+  font-size: 48px;
+}
+
+body{
+  cursor: grab;
+}
+
+p{
+  color:black
+
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+#content{
+  position: fixed;
+  bottom: 300px;
+  color: black;
+  width: 50%;
+  left:350;
+  font-size: 15px;
+}

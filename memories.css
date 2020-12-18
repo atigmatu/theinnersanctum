@@ -1,0 +1,21 @@
+h1{
+  color:gray;
+  font-size: 48px;
+}
+
+body{
+  cursor: grab;
+}
+
+p{
+  color:gray;
+}
+
+a{
+  color:black
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}

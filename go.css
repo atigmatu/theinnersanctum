@@ -15,10 +15,6 @@ p{
 }
 
 a{
-  text-decoration: none;
-  position: fixed;
-  top: 500px;
-  left: 1100px;
   color:black;
 }
 
@@ -70,4 +66,10 @@ a:visited {
 
 #glitch:hover{
   opacity: 1;
+}
+#more{
+position: fixed;
+top: 500px;
+left: 1100px;
+color:black;
 }

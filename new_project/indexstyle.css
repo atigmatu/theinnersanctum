@@ -1,0 +1,57 @@
+h1{
+  color:black;
+  font-size: 48px;
+}
+
+body{
+  background-color: yellow;
+  cursor: grab;
+}
+
+p{
+}
+
+a{
+  text-decoration: none;
+  color:black
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+#stars{
+  background-color: white;
+  width: 30vw;
+  opacity: 1.0;
+  position: fixed;
+}
+
+#stars:hover{
+  background-color:yellow;
+  opacity: 0.0;
+}
+
+#move{
+  position:fixed;
+  top: 400px;
+  right: 350px;
+}
+
+#know{
+  background-color: white;
+  width: 30vw;
+  height: 2vw;
+}
+
+#explore{
+  opacity: .05;
+  position: fixed;
+  left: 500;
+  bottom: 100;
+}
+
+#explore:hover{
+  opacity: 1;
+}

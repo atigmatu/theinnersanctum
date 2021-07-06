@@ -1,0 +1,33 @@
+h1{
+  color:black;
+  font-size: 48px;
+  background-color: white
+}
+
+body{
+  cursor: grabbing;
+  background-image: url(ex.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+p{
+  position: fixed;
+  left: 565px;
+  top:200px;
+  opacity: 0;
+}
+
+p:hover{
+  opacity: 1;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:visited {
+  color:black;
+}

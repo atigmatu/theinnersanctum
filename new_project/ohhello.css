@@ -1,0 +1,70 @@
+h1{
+  color:black;
+  font-size: 48px;
+  background-color: white;
+  position: absolute;
+
+}
+
+body{
+  background-color: yellow;
+  cursor: grabbing;
+}
+
+p{
+}
+
+a{
+  text-decoration: none;
+  color:black
+  position:fixed;
+}
+
+a:visited {
+  color:black;
+}
+
+#uh{
+  background-color: white;
+  width: 20vw;
+  opacity:1.0;
+  position:fixed;
+}
+
+#uh:hover{
+  opacity: 0.0
+}
+
+#glitch{
+  position: fixed;
+  bottom: 500px;
+  left: 600px;
+  opacity: 0;
+  font-size: 26px;
+}
+
+#glitch:hover{
+  opacity: 1;
+}
+
+#snoop{
+  position: fixed;
+  bottom: 345px;
+  left: 1225px;
+}
+
+#home{
+  position: fixed;
+  bottom:600px;
+}
+
+#explore{
+  opacity: .05;
+  position: fixed;
+  left: 500;
+  bottom: 100;
+}
+
+#explore:hover{
+  opacity: 1;
+}

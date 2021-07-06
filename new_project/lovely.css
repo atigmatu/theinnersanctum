@@ -1,0 +1,59 @@
+h1{
+  color:white;
+  font-size: 48px;
+}
+
+body{
+  background-image: url(nightsky.jpg);
+  background-size: contain;
+  cursor: grabbing;
+}
+
+p{
+  position: fixed;
+  top: 300px;
+  right: 600px;
+  color: white;
+  font-size: 13px;
+
+}
+
+a{
+  text-decoration: none;
+  color:white;
+  font-size: 26px;
+  opacity: 0;
+}
+
+a:visited {
+  color:white;
+  opacity: 0;
+}
+
+a:hover{
+  opacity: 1;
+}
+
+#dif{
+  color:white;
+  font-size: 20px;
+  position: fixed;
+  top: 600px;
+  left:200px;
+}
+
+#here{
+  color:white;
+  font-size: 20px;
+  position: fixed;
+  top: 500px;
+  right:200px;
+}
+
+#fix{
+  color:white;
+  font-size: 20px;
+  position: fixed;
+  top: 200px;
+  left:400px;
+}

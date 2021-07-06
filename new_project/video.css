@@ -1,0 +1,26 @@
+h1{
+  color:black;
+  font-size: 48px;
+}
+
+body{
+  cursor: grabbing;
+}
+
+p{
+  color:black;
+  position: absolute;
+  left:450;
+  top: 200;
+
+}
+
+a{
+  text-decoration: none;
+  color:black
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}

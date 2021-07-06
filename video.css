@@ -4,57 +4,23 @@ h1{
 }
 
 body{
-  cursor: grab;
+  cursor: grabbing;
 }
 
 p{
-  color:white
+  color:black;
+  position: absolute;
+  left:450;
+  top: 200;
+
 }
 
 a{
   text-decoration: none;
-  color:white
+  color:black
 }
 
 a:visited {
   text-decoration: none;
-  color:white;
-}
-
-#glitch{
-  position: fixed;
-  right:0;
-  bottom:0;
-  min-width: 100%;
-  min-height: 100%;
-}
-
-#content{
-  position: fixed;
-  bottom: 300px;
-  color: white;
-  width: 100%;
-  font-size: 26px;
-}
-#secret{
-  position: fixed;
-  bottom: 200px;
-  color: white;
-  width: 100%;
-  font-size: 30px;
-  opacity:0;
-}
-
-#secret:hover{
-  opacity:1;
-}
-
-#mads{
-  position: absolute;
-  right:200;
-  opacity: 0;
-}
-
-#mads:hover{
-  opacity: 1;
+  color:black;
 }

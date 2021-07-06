@@ -1,0 +1,52 @@
+h1{
+  color:black;
+  font-size: 48px;
+}
+
+body{
+  background-color: yellow;
+  cursor: grab;
+}
+
+p{
+}
+
+a{
+  text-decoration: none;
+  color:black
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+#stars{
+  background-color: white;
+  width: 25vw;
+  position: fixed;
+  left: 50;
+  bottom: 150;
+}
+
+#know{
+  position: fixed;
+  left: 50;
+  background-color: white;
+  width: 25vw;
+  height: 27vw;
+}
+
+#smile{
+  position: fixed;
+  left: 475;
+  bottom: 95;
+}
+
+#credit{
+  background-color: white;
+  width: 15vw;
+  position: fixed;
+  right: 65;
+  bottom: 30;
+}

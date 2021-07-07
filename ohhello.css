@@ -7,64 +7,49 @@ h1{
 }
 
 body{
-  background-color: yellow;
   cursor: grabbing;
+  background-color: yellow;
 }
 
 p{
+  background: white;
+  width: 40vw;
+  font-size:30px;
 }
 
 a{
+  background-color: white;
   text-decoration: none;
+  font-size: 25px;
   color:black
-  position:fixed;
 }
 
 a:visited {
+  background-color: white;
   color:black;
 }
 
-#uh{
-  background-color: white;
-  width: 20vw;
-  opacity:1.0;
-  position:fixed;
+#time{
+  position: relative;
+  left: 700;
 }
 
-#uh:hover{
-  opacity: 0.0
+#we{
+  position: relative;
+  right:300;
 }
 
-#glitch{
-  position: fixed;
-  bottom: 500px;
-  left: 600px;
-  opacity: 0;
-  font-size: 26px;
+#tell{
+  position: relative;
+  left: 200;
 }
 
-#glitch:hover{
-  opacity: 1;
+#the{
+  position: relative;
+  left:200;
 }
 
-#snoop{
-  position: fixed;
-  bottom: 345px;
-  left: 1225px;
-}
-
-#home{
-  position: fixed;
-  bottom:600px;
-}
-
-#explore{
-  opacity: .05;
-  position: fixed;
-  left: 500;
-  bottom: 100;
-}
-
-#explore:hover{
-  opacity: 1;
+#our{
+  position: relative;
+  left: 700;
 }

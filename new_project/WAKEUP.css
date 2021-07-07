@@ -5,26 +5,38 @@ h1{
 
 body{
   background-color: yellow;
-  cursor: grab;
+  cursor: grabbing;
   font-size: 26px;
 }
 
+button{
+  width: 103;
+  height: 40;
+}
+
 p{
+  position:fixed;
+  top: 320;
+  left: 500;
 }
 
 a{
   text-decoration: none;
   position: absolute;
-  top: 500px;
-  right: 400px;
-  font-size: 13px;
-  color:black
+  top: 497px;
+  right: 302px;
+  border-style: outset;
+  color: gray;
 }
 
 a:visited {
-  color:black;
+  color: gray;
 }
 
+
 #stars{
-  font-size: 20px;
+  position: fixed;
+  left: 350;
+  top: 150;
+
 }

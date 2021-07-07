@@ -55,3 +55,12 @@ a:visited {
 #explore:hover{
   opacity: 1;
 }
+
+#intro{
+    background-color: white;
+    width: 20vw;
+    position: fixed;
+    right: 65;
+    top: 75;
+    font-size: 30;
+  }

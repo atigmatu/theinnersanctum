@@ -1,0 +1,57 @@
+h1{
+  color:gray;
+  font-size: 48px;
+}
+
+body{
+  font-size: 30px;
+  cursor: grabbing;
+  background-color: #fcba03;
+}
+
+p{
+  color:#fcba03;
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+  color:#fcba03;
+}
+
+a:visited {
+  text-decoration: none;
+  color:#fcba03;
+}
+
+#soak{
+  position: fixed;
+
+}
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: black; /* Red */
+  color: #fcba03;
+  position: fixed;
+  top:250;
+  left:350;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: #fcba03;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}

@@ -1,33 +1,45 @@
 h1{
   color:black;
   font-size: 48px;
-  background-color: white
+  background-color: #fcba03
 }
 
 body{
   cursor: grabbing;
-  background-image: url(ex.png);
+  background-image: url(yarrow.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+  background-color: #fcba03;
 }
 
 p{
-  position: fixed;
-  left: 565px;
-  top:200px;
-  opacity: 0;
-}
-
-p:hover{
-  opacity: 1;
+color: #fcba03;
+font-size: 30;
+background-color: black;
 }
 
 a{
   text-decoration: none;
-  color:black;
+  color:#fcba03;
 }
 
 a:visited {
-  color:black;
+  color:#fcba03;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#moment{
+  position: fixed;
+  left: 500;
+  top:300;
+}
+
+#the{
+  position: fixed;
+  left:600;
+  top: 200;
 }

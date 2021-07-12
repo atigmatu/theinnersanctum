@@ -1,0 +1,60 @@
+h1{
+  color:gray;
+  font-size: 48px;
+}
+
+body{
+  background-color: #fcba03;
+  cursor: grab;
+  font-size: 26px;
+}
+
+p{
+  color: #fcba03;
+}
+
+a{
+  text-decoration: none;
+  color:#fcba03;
+}
+
+a:visited {
+  text-decoration: none;
+  color:#fcba03;
+}
+
+#light{
+  position: fixed;
+  right: 10;
+  top:10;
+}
+
+#first{
+  position: fixed;
+  left: 400;
+  top: 3;
+}
+
+#sec{
+  position: fixed;
+  left: 480;
+  top: 150;
+}
+
+#list{
+  position: fixed;
+  right: 305;
+  bottom: 10;
+}
+
+#last{
+  position: fixed;
+  right:430;
+  top:460;
+}
+
+#mid{
+  position: fixed;
+  right: 520;
+  top: 300;
+}

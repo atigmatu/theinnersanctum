@@ -1,0 +1,65 @@
+h1{
+  color:gray;
+  font-size: 48px;
+}
+
+body{
+  font-size: 30px;
+  cursor: grabbing;
+  background-image: url(hawkweed.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fcba03;
+}
+
+p{
+  color:#fcba03;
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+  color:#fcba03;
+}
+
+a:visited {
+  text-decoration: none;
+  color:#fcba03;
+}
+
+
+#not{
+  position: fixed;
+  left: 100;
+  width: 27vw;
+}
+
+#enough{
+  position: fixed;
+  left:150;
+  top:100;
+  width: 27vw;
+}
+
+#grow{
+  position: fixed;
+  left: 600;
+  width: 40vw;
+  top: 300;
+}
+
+#flower{
+  position: fixed;
+  left: 250;
+  bottom: 100;
+  width: 30vw;
+}
+
+#flower:hover{
+  text-decoration: underline;
+}
+
+#not:hover{
+  text-decoration: underline;
+}

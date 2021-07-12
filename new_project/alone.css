@@ -1,0 +1,53 @@
+h1{
+  color:gray;
+  font-size: 48px;
+}
+
+body{
+  background-color: black;
+  cursor: grab;
+  font-size: 50px;
+
+}
+
+p{
+
+}
+
+a{
+  text-decoration: none;
+  color: #fcba03;
+}
+
+a:visited {
+  text-decoration: none;
+  color:#fcba03;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#feel{
+  position: fixed;
+  left: 500;
+  width: 27vw;
+  top: 250;
+  background-color: black;
+  color: #fcba03;
+}
+
+#tell{
+  color: #fcba03;
+  width: 13vw;
+  height: 8vw;
+  background-color: black;
+  opacity: 0;
+  position: fixed;
+  left: 700;
+  top: 250;
+}
+
+#tell:hover{
+  opacity: 1;
+}

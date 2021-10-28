@@ -11,10 +11,10 @@ body{
 
 p{
   position: fixed;
-  top: 300px;
-  right: 600px;
+  bottom: 5px;
+  right: 650px;
   color: white;
-  font-size: 13px;
+  font-size: 15px;
 
 }
 
@@ -38,22 +38,22 @@ a:hover{
   color:white;
   font-size: 20px;
   position: fixed;
-  top: 600px;
-  left:200px;
+  top: 555px;
+  left:285px;
 }
 
 #here{
   color:white;
   font-size: 20px;
   position: fixed;
-  top: 500px;
-  right:200px;
+  top: 525px;
+  right:275px;
 }
 
 #fix{
   color:white;
   font-size: 20px;
   position: fixed;
-  top: 200px;
-  left:400px;
+  top: 420px;
+  left:620px;
 }

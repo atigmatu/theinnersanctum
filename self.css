@@ -5,17 +5,17 @@ h1{
 
 body{
   cursor: grabbing;
-  background-image: url(sun.jpg);
-  background-size: fill;
+  background-image: url(orange.jpg);
+  background-size: contain;
   background-repeat: no-repeat;
 }
 
 p{
-  position: absolute;
-    color: white;
-    font-size: 30px;
-    top: 100;
-    left: 300;
+  color:white;
+    font-size: 20px;
+    position: fixed;
+    right:50;
+    top:50;
   }
 
 a{
@@ -31,3 +31,4 @@ a:visited {
 a:hover{
   color:yellow;
 }
+#ffa600

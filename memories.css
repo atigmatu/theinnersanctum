@@ -12,8 +12,6 @@ body{
 
 p{
   color: #fcba03;
-  background-color: black;
-
 }
 
 a{
@@ -28,22 +26,22 @@ a:visited {
 
 #my{
   position: fixed;
-  left: 50;
+  left: 300;
   top: 50;
   width: 27vw;
 }
 
 #face{
   position: fixed;
-  left: 200;
+  left: 400;
   top: 200;
   width: 27vw;
 }
 
 #alone{
   position: fixed;
-  right: 100;
-  top: 700;
+  right: 350;
+  top: 500;
   width: 20vw;
 }
 

@@ -1,0 +1,39 @@
+h1{
+  color:black;
+  font-size: 48px;
+  background-color: white
+}
+
+body{
+  cursor: grabbing;
+}
+
+p{
+  font-size: 50;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+a:visited {
+  color:black;
+}
+
+
+#best{
+    position: fixed;
+    left: 350;
+    width: 50vw;
+    top: 100;
+    font-size: 50;
+}
+
+#clouds{
+  position: fixed;
+  right:0;
+  bottom:0;
+  min-width: 100%;
+  min-height: 100%;
+}

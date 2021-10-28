@@ -1,0 +1,54 @@
+h1{
+  font-size: 48px;
+  position: fixed;
+}
+
+body{
+  cursor: grabbing;
+  background-image: url(who.jpg);
+  background-size: fill;
+  background-repeat: no-repeat;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+  }
+
+a{
+  text-decoration: none;
+  color:white;
+  opacity: 1;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover{
+  color:yellow;
+}
+
+#rom{
+  position: absolute;
+  right: 200;
+  top: 400;
+}
+
+#gone{
+  position: absolute;
+  top:100;
+  left: 50;
+}
+
+#lives{
+  position: absolute;
+  left: 100;
+  top: 200;
+}
+
+#groggy{
+  position: fixed;
+  top: 300;
+  left: 70;
+}

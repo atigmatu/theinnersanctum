@@ -1,22 +1,17 @@
 h1{
   color:black;
   font-size: 48px;
-  background-color: #fcba03
+  background-color: #fcba03;
 }
 
 body{
   cursor: grabbing;
-  background-image: url(yarrow.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   background-color: #fcba03;
 }
 
 p{
-color: #fcba03;
-font-size: 30;
-background-color: black;
+font-size: 50;
+
 }
 
 a{
@@ -30,16 +25,19 @@ a:visited {
 
 a:hover{
   text-decoration: underline;
+  color: black;
 }
 
 #moment{
   position: fixed;
-  left: 500;
-  top:300;
+  right: 50;
+  top:500;
+  color: black;
 }
 
 #the{
   position: fixed;
-  left:600;
-  top: 200;
+  left:50;
+  top: 0;
+  color: #fcba03;
 }

@@ -1,16 +1,11 @@
 h1{
-  color:gray;
+  color:#fcba03;
   font-size: 48px;
 }
 
 body{
   font-size: 30px;
   cursor: grabbing;
-  background-color: #fcba03;
-}
-
-p{
-  color:#fcba03;
   background-color: black;
 }
 
@@ -24,34 +19,27 @@ a:visited {
   color:#fcba03;
 }
 
-#soak{
+#plastic{
   position: fixed;
-
+  top: 200;
+  left: 350;
+  width: 50vw;
+  font-size: 50;
+  color: #fcba03;
 }
 
-/* The alert message box */
-.alert {
-  padding: 20px;
-  background-color: black; /* Red */
+#block{
   color: #fcba03;
+  width: 600;
+  height: 170;
+  background-color: black;
+  opacity: 0;
   position: fixed;
-  top:250;
-  left:350;
+  left: 400;
+  top: 260;
+  font-size: 50;
 }
 
-/* The close button */
-.closebtn {
-  margin-left: 15px;
-  color: #fcba03;
-  font-weight: bold;
-  float: right;
-  font-size: 22px;
-  line-height: 20px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-/* When moving the mouse over the close button */
-.closebtn:hover {
-  color: black;
+#block:hover{
+  opacity: 1;
 }

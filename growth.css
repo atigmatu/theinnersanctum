@@ -4,62 +4,66 @@ h1{
 }
 
 body{
-  font-size: 30px;
   cursor: grabbing;
-  background-image: url(hawkweed.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #fcba03;
+  background-color: #2f7037;
 }
 
 p{
-  color:#fcba03;
-  background-color: black;
+  color:black;
 }
 
 a{
   text-decoration: none;
-  color:#fcba03;
+  color:black;
 }
 
 a:visited {
   text-decoration: none;
+  color:black;
+}
+
+a:hover{
   color:#fcba03;
 }
 
 
 #not{
   position: fixed;
-  left: 100;
-  width: 27vw;
+  left: 360;
+  font-size: 70px;
+  top: 200;
+}
+
+/* The alert message box */
+.alert {
+  padding: 100px;
+  background-color: black; /* Red */
+  color: #fcba03;
+  position: fixed;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: #fcba03;
+  font-weight: bold;
+  float: right;
+  font-size: 30px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
 }
 
 #enough{
   position: fixed;
-  left:150;
-  top:100;
+  left:530;
+  top:250;
   width: 27vw;
-}
+  font-size: 55;
 
-#grow{
-  position: fixed;
-  left: 600;
-  width: 40vw;
-  top: 300;
-}
-
-#flower{
-  position: fixed;
-  left: 250;
-  bottom: 100;
-  width: 30vw;
-}
-
-#flower:hover{
-  text-decoration: underline;
-}
-
-#not:hover{
-  text-decoration: underline;
 }

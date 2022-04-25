@@ -1,0 +1,28 @@
+h1{
+  color:gray;
+  font-size: 48px;
+}
+
+body{
+  cursor: grab;
+  background-color:#2f7037;
+  text-decoration:
+
+}
+
+p{
+  font-size: 100px;
+  color: black;
+}
+
+a{
+  color: black;
+}
+
+a:visited {
+  color:black;
+}
+
+a:hover{
+  color: #fcba03;
+}

@@ -1,0 +1,43 @@
+h1{
+  color: #2b2a21;
+  font-family: "courier new";
+  font-size: 60px;
+}
+
+body{
+  background-color: #edebda;
+  cursor: grab;
+}
+
+p{
+  color: #2b2a21;
+  font-family: "courier new";
+  font-size: 25px;
+}
+
+a{
+  text-decoration: none;
+  color:#2b2a21;
+  font-family: "courier new";
+}
+
+a:visited {
+  text-decoration: none;
+  color:#2b2a21;
+  font-family: "courier new";
+}
+
+a:hover{
+  color: #fcba03;
+}
+
+#twentytwo{
+  position: relative;
+  right: 500;
+}
+
+#wrapper {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
